@@ -1,0 +1,51 @@
+
+{
+    "number": 100,
+    
+    "string": "hello world",
+    
+    "boolean": true,
+    
+    "array": [1, 2, 3, 4, 5],
+    
+    "null": null,
+    
+    "object": {
+        "key": "value",
+        "profile": {
+            "firtname": "purna",
+            "lastname": "sai",
+            "age": 21,
+            "college": ["sathyabama university" ,
+                {
+                    "city" : "chennai",
+                    "state" : "tamiladu",
+                    "zip": 600119
+                }
+            ]
+            }
+    },
+    
+    "nestedArray": [
+    {
+        "id": 1,
+        "name": "purna",
+        "permanent_address": {
+            "street": "Taduvai",
+            "city": "vijaywada",
+            "state": "Andhra pradesh",
+            "zip": "534447"
+        }
+    },
+    {
+        "id": 2,
+        "name": "sai",
+        "present_address": {
+            "street": "village road",
+            "city": "chennai",
+            "state": "Tamilnadu",
+            "zip": "600119"
+        }
+    }
+    ]
+}
